@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #d9a29fe6;
+    /* #d79894 */
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    gap: 60px;
+    width: 85%;
+    height: 70px;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+.container-navbar li a:hover {
+    color:  #e9f4ba;
+}
+
+.header {
+    background-image:linear-gradient(to right,rgba(26, 23, 23, 0.479),rgba(255, 192, 203, 0)),url(./gül);
+    opacity:0.7;
+}
+.left1 .h1{
+    color:silver;
+    text-shadow: 2px 1px 1px white ;
+}
+.right1 .p1 {
+    font-size: 32px;
+     color: #ece8e8;
+    text-shadow: 1 1 0 white;
+}
+
+img {
+ width: 100%;
+ height: 100%;
+ border-radius: 10px;
+}
+
+.sitecontainer {
+    background-color:#040714;
+    color: #dbe0c8;
+    font-family: 'Lora', serif;
+}
+.header {
+    width: 100%;
+    padding: 3vh 9vw;
+    
+    
+}
+.header-flexcontainer {
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    align-items: center;
+}
+
+.left1, .right1 {
+    width: 100%;
+}
+
+.left1 .h1 {
+    font-size: 45px;
+}
+
+.left{
+    height: 325px;
+    text-align: center;
+    overflow: hidden;
+}
+.yazi{
+    margin-top: 14px;
+}
+.about{
+    margin-top: 30px;
+    height:260px;
+    overflow: hidden;
+}
+.about .h3 {
+    font-size: 20px;
+    margin: auto;
+    display: flex;
+    width: 95%;
+}
+ .left2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+}
+ .p2{
+    margin-bottom: 25px;
+    margin-top: 35px;
+    font-size: 40px;
+}
+
+
+
+.body1, .body2, .body_2{
+ width: 100%;
+ padding: 5vh 12vw;
+ background-color:#c6a2a2 ;
+ /* #c8a4a4; */
+
+}
+/* ikinci kısım */
+.body-flexcontainer, .body-flexcontainer1, .body-flexcontainer_1{
+    border: 4px solid #626e59;
+    background-color:#718a5ffa;
+    border-radius: 25px;
+    display: flex;
+    width: 92%;
+    min-height: 53vh;
+    align-items: center;
+    margin: auto;
+}
+.body1 .right2{
+    display: flex;
+    justify-content: center;
+    width: 115%;
+    border-radius: 25px;
+    background-color: #e7c2c2;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right2-img{
+    width: 160px;
+     height: 247px;
+ 
+ }
+
+.body1 .h1 {
+    font-size: 33px;
+    color:#ffdfe3!important;
+    text-shadow: 1px 1px 1px white;
+}
+
+ .body2 .p1 {
+    margin-bottom: 25px;
+    margin-top: 35px;
+    font-size: 36px;
+    color:#ffdfe3!important;
+    text-shadow: 1px 1px 1px white;
+}
+.body2 .left2, .body_2 .left_2{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    /* margin: auto; */
+}
+.body2 .right, .body_2 .rightt{
+    height: 310px;
+    width: 70%;
+    overflow: hidden;
+    justify-content: center;
+
+}
+.experience{
+    height: 100%;
+    margin-top: 12px;
+}
+.Hr{
+    width: 75%;
+    background-color: #c6a2a2;
+    height: 4px;
+}
+.p_1{
+   font-size: 24px;
+   color: rgb(233 198 198);
+}
+.p_2{
+    font-size: 18px;
+}
+
+.left_2 .p1 {
+    font-size: 30px;
+    margin-left: 30px;
+    color: #ffdfe3!important ;
+    text-shadow: 1px 1px 1px white;
+   
+}
+.çizgii{
+    border-bottom: 5px solid #fdfdfd;
+    width: 180px;
+    /* margin-left: 60px; */
+}
+.çizgii1{
+    border-bottom: 5px solid #f5ecb0;
+    width: 120px;
+   
+}
+.p_3{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+.skills{
+    width: 50%;
+    margin-top: 5px;
+}
+.hobby{
+    width: 50%;
+    
+}
+.rightt{
+    display: flex;
+    flex: 1;
+}
+.it{
+    margin-top: 8px;
+}
+.Hobbies {
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 35px;
+
+}
+.ikon{
+    margin-top: 15px;
+    color: #626e59 !important;
+}
+.project{
+    margin-top: 10px;
+}
+
+/* üçüncü kısım */
+
+.body3 {
+    width: 100%;
+    background-image: url(./gül);
+    min-height:250px ;
+    opacity: 0.8;
+    padding: 50px
+   
+}
+.text-container{
+    padding: 40px;
+    height: 210px;
+   margin: auto;
+    background-color: rgba(0,0,0,.75);
+    border-radius: 4px;
+    width: 50%;
+}
+.contact{
+    text-align: center;
+}
+.contact .ikonp {
+    margin-top: 10px;
+}
+.ikonlar{
+    margin-top: 10px;
+}
+h2:hover, .ikonp:hover, i:hover,.ikonp a:hover  {
+    color:wheat;
+    cursor: pointer;
+}
+.fa-brands{
+    padding: 8px;
+}
